@@ -19,11 +19,6 @@ public class App {
 		table.addPlayer(new Player.Builder().username("Pirulito").stack(1000).build());
 		table.addPlayer(new Player.Builder().username("Walter").stack(1000).build());
 		
-		table.dealPreFlopRound();
-		table.dealFlopRound();
-		table.dealTurnRound();
-		table.dealRiverRound();
-		
-		table.debugPrints();
+		table.startHand();
 	}
 }

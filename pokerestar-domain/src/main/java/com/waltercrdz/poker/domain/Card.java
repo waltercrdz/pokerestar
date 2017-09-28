@@ -10,6 +10,10 @@ public class Card {
 		this.rank = value;
 	}
 
+	public int strength() {
+		return this.rank.value;
+	}
+	
 	public Suit getSuit() {
 		return suit;
 	}

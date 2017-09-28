@@ -20,8 +20,8 @@ public class Deck {
 	}
 
 	protected Deck(List<Card> cards) {
-		Preconditions.checkArgument(Objects.nonNull(cards), "Cards can't be null.");
-		Preconditions.checkArgument(!cards.isEmpty(), "Cards can't be empty.");
+		Preconditions.checkArgument(Objects.nonNull(cards), "Cards cannot be null.");
+		Preconditions.checkArgument(!cards.isEmpty(), "Cards cannot be empty.");
 		this.cards = cards;
 	}
 
