@@ -15,8 +15,8 @@ public class App {
 	public static void main(String[] args) {
 		Dealer dealer = new Dealer.Builder().deck(new Deck()).build();
 		Board table = new Board.Builder().dealer(dealer).build();
-		table.addPlayer(new Player.Builder().username("Pepito").stack(1000).build());
-		table.addPlayer(new Player.Builder().username("Pirulito").stack(1000).build());
+		table.addPlayer(new Player.Builder().username("Pepe").stack(1000).build());
+		table.addPlayer(new Player.Builder().username("Pirulo").stack(1000).build());
 		table.addPlayer(new Player.Builder().username("Walter").stack(1000).build());
 		
 		table.startHand();
